@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing:border-box;
+}
+
+body{
+    background: #F0EBE5;
+   background-image: url(./cartoon-smoke-illustrated1\ 1.png);
+}
+.tavi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    .bg{
+        color: red;
+    }
+
+    img{
+        margin-right: 230px;
+    }
+}
+
+.one{
+    border: none;
+    background: none;
+   
+}
+.two{
+   background-color: red;
+   width: 50px;
+   height: 30px;
+   color: #F0EBE5;
+   font-size: 12px;
+   font-weight: 600;
+   border: none;
+   border-radius: 15px 0px 15px 0px;
+}
+
+
+.texts{
+    flex-direction: column;
+    margin-top:  80px;
+
+
+}
+span{
+    color: red;
+     
+}
+.didi{
+    font-weight: 300;
+    font-size: 16px;
+
+    
+}
+.big{
+   
+    font-weight:900;
+    font-size: 64px;
+  display: inline-block;
+
+}
+input{
+
+  border: none;
+  outline: none;
+  margin-top: 50px;
+  background: transparent;
+  padding: 10px 14px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  width:100%;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 14px 0 14px 0;
+  padding: 8px;
+ 
+}
+.inpos{
+    width: 50px;
+    height: 30px;
+    background-color: rgba(215, 21, 21, 1);
+     border-radius: 13px 0px 13px 0px;
+     position: absolute;
+     top: 285px;
+     left: 370px;
+ i{
+    position: absolute;
+    top: 9px;
+    left: 17px;
+
+ }
+}
+
+.photo{
+    width: 607px;
+    height: 622px;
+    position: absolute;
+    left: 900px;
+
+} 
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  gap: 50px;
+  margin-top: 300px;
+  
+.card{
+    display: flex;
+    width:292px ;
+    height:131px ;
+    background-color: #F0EBE5;
+      box-shadow: 10px 10px 0 rgb(0, 0, 0); 
+      border-radius: 20px;
+  
+     z-index: 1;
+}
+}
